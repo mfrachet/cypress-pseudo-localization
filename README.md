@@ -30,7 +30,7 @@ beforeEach(() => {
   cy.pseudoLocalize();
 });
 
-// Make sure to cleanup to localization after the tests
+// Make sure to cleanup the localization after the tests
 // Needed, because there's a mutation observer used under the hood
 afterEach(cy.stopPseudoLocalize);
 ```
